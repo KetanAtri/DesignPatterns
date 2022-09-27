@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.ToString;
 
 @Getter
-@ToString
+@ToString(callSuper = true)
 public class ElectricGuitar extends Guitar
 {
     private Integer numberOfPickups;
@@ -48,9 +48,12 @@ public class ElectricGuitar extends Guitar
 
         public Guitar build()
         {
+            Guitar baseGuitar = super.build();
             electricGuitar = new ElectricGuitar();
             electricGuitar.setNumberOfPickups(numberOfPickups);
             electricGuitar.setPickupType(pickupType);
+            electricGuitar.setWoodType(baseGuitar.getWoodType());
+            electricGuitar.setNumberOfString(baseGuitar.getNumberOfString());
             return electricGuitar;
         }
 

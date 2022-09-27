@@ -9,9 +9,12 @@ public class CactusBuilder extends PlantBuilder
 
     public Plant build()
     {
+        Plant basePlant = super.build();
         cactus = new Cactus();
         cactus.setThornsPerSquareInch(this.leafShape.equals("Oval")? 2: 3);
         cactus.setWaterRequiredInLitres(this.height < 10? 2.5f: 5f);
+        cactus.setLeaf(basePlant.getLeaf());
+        cactus.setHeight(basePlant.getHeight());
         return cactus;
     }
 }
