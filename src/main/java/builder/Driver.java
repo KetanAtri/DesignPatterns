@@ -43,6 +43,9 @@ public class Driver
         Guitar electricGuitar = electricGuitarBuilder
                 .withNumberOfPickups(3)
                 .withPickupType("Humbucker")
+                .withGrain("Coarse")
+                .withTree("Deodar")
+                .withNumberOfString(6)
                 .build();
         log.info("Created electric guitar: {}", electricGuitar);
     }

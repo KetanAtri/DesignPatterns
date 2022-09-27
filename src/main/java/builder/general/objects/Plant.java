@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Plant
 {
-    private Leaf leaf;
+    protected Leaf leaf;
 
-    private Float height;
+    protected Float height;
 }

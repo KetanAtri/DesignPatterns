@@ -7,16 +7,16 @@ import lombok.ToString;
 @ToString
 public class Guitar
 {
-    private Integer numberOfString;
+    protected Integer numberOfString;
 
-    private Wood woodType;
+    protected Wood woodType;
 
-    private void setWoodType(Wood woodType)
+    protected void setWoodType(Wood woodType)
     {
         this.woodType = woodType;
     }
 
-    private void setNumberOfString(Integer numberOfString)
+    protected void setNumberOfString(Integer numberOfString)
     {
         this.numberOfString = numberOfString;
     }
