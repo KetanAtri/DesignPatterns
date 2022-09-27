@@ -22,6 +22,8 @@ Template implementation of Design Patterns learnt as part of Udemy course
 <ul>
     <li> Builder - Used for constructing objects that require multiple parameters / steps for initialization. It is
     possible to end up with partially initialized objects, build method needs to handle this case accordingly. </li>
+    <li> Simple Factory - More of encapsulation than a design pattern; used when an object needs to be instantiated
+    based on a condition. If decision gets too complex then "Factory Method" pattern should be used instead. </li>
 </ul>
 
 <b> Additional Notes </b>
