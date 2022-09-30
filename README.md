@@ -24,6 +24,9 @@ Template implementation of Design Patterns learnt as part of Udemy course
     possible to end up with partially initialized objects, build method needs to handle this case accordingly. </li>
     <li> Simple Factory - More of encapsulation than a design pattern; used when an object needs to be instantiated
     based on a condition. If decision gets too complex then "Factory Method" pattern should be used instead. </li>
+    <li> Factory Method - Allows addition of new classes for creation without changing existing client code and factory
+    implementation. Can lead to a large number of classes as there is a 1:1 relation between product and factory
+    classes.</li>
 </ul>
 
 <b> Additional Notes </b>
