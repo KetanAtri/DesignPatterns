@@ -28,9 +28,12 @@ Template implementation of Design Patterns learnt as part of Udemy course
     implementation. Can lead to a large number of classes as there is a 1:1 relation between product and factory
     classes. </li>
     <li> Prototype - Useful for classes whose object creation is a costly procedure, or where object creation is not 
-    possible as instantiation is done externally. Should primarily be used with immutable data members otherwise creating
-    deep copy can itself be a costly operation. Subclasses may not support cloning which can make code complicated for 
-    client. </li>
+    possible as instantiation is done externally. Should primarily be used with immutable data members otherwise
+    creating deep copy can itself be a costly operation. Subclasses may not support cloning which can make code 
+    complicated for client. </li>
+    <li> Abstract Factory - Used when sets of object which work together need to be created. Implementation-wise it is
+    like an extension of the factory method pattern. Note that adding a new product type to the sets will require
+    changes in all the concrete implementations. </li>
 </ul>
 
 <b> Additional Notes </b>
