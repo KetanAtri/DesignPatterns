@@ -34,6 +34,8 @@ Template implementation of Design Patterns learnt as part of Udemy course
     <li> Abstract Factory - Used when sets of object which work together need to be created. Implementation-wise it is
     like an extension of the factory method pattern. Note that adding a new product type to the sets will require
     changes in all the concrete implementations. </li>
+    <li> Singleton - Useful when only one instance of a class should be present in the application. Note that
+    subclassing should be prevented to avoid multiple instance creation. </li>
 </ul>
 
 <b> Additional Notes </b>
