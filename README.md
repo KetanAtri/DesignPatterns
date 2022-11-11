@@ -35,7 +35,8 @@ Template implementation of Design Patterns learnt as part of Udemy course
     like an extension of the factory method pattern. Note that adding a new product type to the sets will require
     changes in all the concrete implementations. </li>
     <li> Singleton - Useful when only one instance of a class should be present in the application. Note that
-    subclassing should be prevented to avoid multiple instance creation. </li>
+    subclassing should be prevented to avoid multiple instance creation. Note that static objects are created once 
+    per class loader and not once per JVM. </li>
 </ul>
 
 <b> Additional Notes </b>
