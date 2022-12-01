@@ -42,6 +42,13 @@ Template implementation of Design Patterns learnt as part of Udemy course
     pattern depends on client as they are responsible for releasing objects. </li>
 </ul>
 
+<b> Structural Design Patterns </b>
+<ul>
+    <li>  Adapter - Used when client requires a functionality from an interface, which is provided by a different class.
+    Important to ensure that adapter only performs interface translation and does not add / modify logic to keep it
+    maintainable. </li>
+</ul>
+
 <b> Additional Notes </b>
 <ul>
     <li> Importance of test cases - Unit test cases, like JUnit, help to make refactoring easier. Any changes in
