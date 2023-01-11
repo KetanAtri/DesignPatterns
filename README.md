@@ -47,6 +47,8 @@ Template implementation of Design Patterns learnt as part of Udemy course
     <li>  Adapter - Used when client requires a functionality from an interface, which is provided by a different class.
     Important to ensure that adapter only performs interface translation and does not add / modify logic to keep it
     maintainable. </li>
+    <li> Bridge - Allows abstraction and implementation to change independently. Note that it is fairly complex to 
+    design and implement and as such should be done beforehand as refactoring is difficult.</li>
 </ul>
 
 <b> Additional Notes </b>
