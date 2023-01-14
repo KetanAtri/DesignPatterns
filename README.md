@@ -49,6 +49,8 @@ Template implementation of Design Patterns learnt as part of Udemy course
     maintainable. </li>
     <li> Bridge - Allows abstraction and implementation to change independently. Note that it is fairly complex to 
     design and implement and as such should be done beforehand as refactoring is difficult.</li>
+    <li> Decorator - Used when a small functionality needs to be added over an existing object. Care should be taken
+    about using it as replacement of inheritance, and recursive decorators lead to code which is hard to debug.</li>
 </ul>
 
 <b> Additional Notes </b>
